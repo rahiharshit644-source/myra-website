@@ -29,7 +29,7 @@ jobs:
           node-version: 22
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Build MYRA
         run: npm run build
@@ -37,7 +37,7 @@ jobs:
       - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload website artifact
+      - name: Upload website
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./dist
