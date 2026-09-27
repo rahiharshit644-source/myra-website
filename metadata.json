@@ -1,0 +1,6 @@
+{
+  "name": "MYRA – Android AI Assistant & Voice OS",
+  "description": "The official technical website and architectural documentation for MYRA (com.soltini.app), an advanced Android AI assistant and voice operating system built with Kotlin, Jetpack Compose, and Material 3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
